@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="outcome" class="outcome">
+            
+        </div>
+        <div id="keys" class="keys">
+            <div id="clear" class="num" onclick="getKeys(this)">C</div> <div class="num"></div> <div class="num" id="back" onclick="getKeys(this)">B</div> <div id="oper" class="num" onclick="getKeys(this)">/</div>
+            <div class="num" onclick="getKeys(this)">7</div> <div class="num" onclick="getKeys(this)">8</div> <div class="num" onclick="getKeys(this)">9</div> <div id="oper" class="num" onclick="getKeys(this)">*</div>
+            <div class="num" onclick="getKeys(this)">4</div> <div class="num" onclick="getKeys(this)">5</div> <div class="num" onclick="getKeys(this)">6</div> <div id="oper" class="num" onclick="getKeys(this)">-</div>
+            <div class="num" onclick="getKeys(this)">1</div> <div class="num" onclick="getKeys(this)">2</div> <div class="num" onclick="getKeys(this)">3</div> <div id="oper" class="num" onclick="getKeys(this)">+</div>
+            <div class="num"></div> <div class="num" onclick="getKeys(this)">0</div> <div class="num" onclick="getKeys(this)">.</div> <div id="oper" class="num" onclick="getKeys(this)">=</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
